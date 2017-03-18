@@ -24,6 +24,12 @@ use App\Notifications\Frontend\Auth\UserNeedsConfirmation;
 class UserRepository extends BaseRepository
 {
     /**
+     * Model class Name Space of the corresponding to this repository
+     * @var string
+     */
+    protected $modelName = 'App\Models\Access\User\User';
+
+    /**
      * Associated Repository Model.
      */
     const MODEL = User::class;
@@ -111,7 +117,7 @@ class UserRepository extends BaseRepository
     /**
      * @param Model $input
      */
-    public function create($input)
+    public function create(array $input)
     {
         $data = $input['data'];
         $roles = $input['roles'];
@@ -279,11 +285,11 @@ class UserRepository extends BaseRepository
         switch ($status) {
             case 0:
                 event(new UserDeactivated($user));
-            break;
+                break;
 
             case 1:
                 event(new UserReactivated($user));
-            break;
+                break;
         }
 
         if ($user->save()) {

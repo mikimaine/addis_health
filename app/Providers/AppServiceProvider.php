@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\Repositories\Patient\EloquentPatientRepository;
+use App\Repositories\Patient\PatientContract;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
@@ -77,5 +79,7 @@ class AppServiceProvider extends ServiceProvider
              */
             $loader->alias('Debugbar', \Barryvdh\Debugbar\Facade::class);
         }
+        $this->app->bind(PatientContract::class, EloquentPatientRepository::class);
+
     }
 }
