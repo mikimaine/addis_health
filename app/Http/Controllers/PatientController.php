@@ -41,8 +41,6 @@ class PatientController extends ApiController
     {
 
          $contract->create($request->all());
-
-
     }
 
     /**
@@ -53,7 +51,7 @@ class PatientController extends ApiController
      */
     public function show(Patient $patient)
     {
-        //
+        return $this->setStatusCode(200)->respond($patient);
     }
 
     /**

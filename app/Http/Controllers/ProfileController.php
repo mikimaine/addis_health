@@ -45,7 +45,7 @@ class ProfileController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param \App\Models\Profile|Profile $profile
+     * @param Profile $profile
      * @return \Illuminate\Http\Response
      */
     public function show(Profile $profile)
@@ -56,7 +56,7 @@ class ProfileController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Profile  $profile
+     * @param Profile $profile
      * @return \Illuminate\Http\Response
      */
     public function edit(Profile $profile)
@@ -67,8 +67,8 @@ class ProfileController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Profile  $profile
+     * @param Request $request
+     * @param Profile $profile
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, Profile $profile)
@@ -79,7 +79,7 @@ class ProfileController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Profile  $profile
+     * @param Profile $profile
      * @return \Illuminate\Http\Response
      */
     public function destroy(Profile $profile)

@@ -21,7 +21,7 @@ class PatientTableSeeder extends Seeder
     public function run()
     {
         $this->disableForeignKeys();
-        $this->truncate('history_types');
+        $this->truncate('patient');
 
 
         $patient = array();
@@ -30,7 +30,7 @@ class PatientTableSeeder extends Seeder
 
         for ($i =0 ; $i <=1000; $i++){
             $types = [
-                'temp'         => 1,
+                'temp'         => rand(32,46),
                 'hb'            =>  rand(0,100),
                 'bp'            => rand(60,180),
                 'gender'        => $gender[rand(0, 1)],
