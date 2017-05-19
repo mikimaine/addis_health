@@ -38,7 +38,7 @@ class FrontendController extends Controller
             $message->to('sew.gebeya@gmail.com')->subject('Contact Form on Sew');
         });
 
-        return redirect()->route('frontend.index')->withFlashSuccess("You have successfully send contact and notices,Thank You!");
+        return redirect()->route('frontend.index')->withFlashSuccess("You have successfully sent contact and notices,Thank You!");
     }
 
     /**
