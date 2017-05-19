@@ -5,6 +5,8 @@
  * All route names are prefixed with 'frontend.'.
  */
 Route::get('/', 'FrontendController@index')->name('index');
+Route::post('email', 'FrontendController@email')->name('email');
+Route::post('contact', 'FrontendController@contact')->name('contact');
 Route::get('macros', 'FrontendController@macros')->name('macros');
 
 /*

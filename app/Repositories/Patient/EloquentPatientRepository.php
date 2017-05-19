@@ -34,7 +34,6 @@ class EloquentPatientRepository extends BaseRepository implements PatientContrac
     public function createStub($input)
     {
 
-
         $gender = array('Male', 'Female');
 
         $patient = new $this->modelName();

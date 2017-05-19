@@ -58,11 +58,14 @@ class PatientController extends ApiController
      * Show the form for editing the specified resource.
      *
      * @param Patient $patient
+     * @param PatientContract $contract
      * @return \Illuminate\Http\Response
      */
-    public function edit(Patient $patient)
+    public function edit(Patient $patient,PatientContract $contract)
     {
         //
+//        $contract->create($request->all());
+
     }
 
     /**
