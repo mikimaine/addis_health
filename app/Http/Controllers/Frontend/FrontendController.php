@@ -35,7 +35,7 @@ class FrontendController extends Controller
         Mail::send('email.contact', ['from' => $request->email,'name'=>$request->name, 'messages' => $request->message], function ($message)
         {
             $message->from('contact@sew.gebeya.com', 'sew.gebeya.com');
-            $message->to('sew@gmail.com')->subject('Contact Form on Sew');
+            $message->to('sew.gebeya@gmail.com')->subject('Contact Form on Sew');
         });
 
         return redirect()->route('frontend.index')->withFlashSuccess("You have successfully send contact and notices,Thank You!");
