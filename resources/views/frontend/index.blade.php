@@ -88,9 +88,9 @@
                         <div class="templatemo_homewrapper">
                             <h1 class="wow fadeInDown" data-wow-delay="2000">BECAUSE WE CARE</h1>
                             <h2 class="wow fadeInDown" data-wow-delay="2000">
-                                <span>work on all modern browsers, Works on IE 10+</span>
+                                {{--<span>work on all modern browsers, Works on IE 10+</span>--}}
                             </h2>
-                            <p>see caniuse.com for browser compatibility information</p>
+                            {{--<p>see caniuse.com for browser compatibility information</p>--}}
                             <a href="#about" class="smoothScroll btn btn-default wow fadeInDown" data-wow-delay="2000">See about us</a>
                         </div>
                     </div>
