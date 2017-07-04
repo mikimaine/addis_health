@@ -114,7 +114,7 @@
                 </p>
             </div>
             <div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.9s">
-                <img src="images/black.jpg">
+                {{--<img src="images/black.jpg">--}}
 
             </div>
         </div>

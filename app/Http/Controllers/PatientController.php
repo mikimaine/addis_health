@@ -3,9 +3,9 @@
 namespace App\Http\Controllers;
 
 
+use Illuminate\Http\Request;
 use App\Models\Patient\Patient;
 use App\Repositories\Patient\PatientContract;
-use Illuminate\Http\Request;
 
 class PatientController extends ApiController
 {
@@ -78,7 +78,7 @@ class PatientController extends ApiController
      */
     public function update(Request $request,Patient $patient,PatientContract $patientContract)
     {
-        $patientContract->update($patient, $request->all());
+        $patient = $patientContract->update($patient, $request->all());
 //
         return $this->setStatusCode(200)->respond($patient);
 
