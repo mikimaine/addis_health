@@ -48,7 +48,7 @@
                 <span class="icon icon-bar"></span>
                 <span class="icon icon-bar"></span>
             </button>
-            <a href="#" class="navbar-brand"><img src="images/logo.png" class="img-responsive" alt="logo"></a>
+            <a href="#" class="navbar-brand"><img src="images/logo.svg" class="img-responsive" width="150px" height="51px" alt="logo"></a>
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -114,7 +114,7 @@
                 </p>
             </div>
             <div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.9s">
-                {{--<img src="images/black.jpg">--}}
+                <img src="images/black.jpg" >
 
             </div>
         </div>
