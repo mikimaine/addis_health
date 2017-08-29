@@ -108,9 +108,11 @@
             <div class="col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay="0.9s">
                 <h3>About SEW</h3>
                 <h4>Smart, Light and Adaptive</h4>
-                <p>SEW is a real-time patient monitoring system placed on the wrist that integrates vital signs sensors, ad-hoc networking, electronic patient records, and Web portal technology to allow remote monitoring of patient status within the
-                    hospital premises. </p>
-                <p>This system shall facilitate communication between patients wearing the wristband device and medical professionals at local hospitals such as nurses or doctors.
+                <p>SEW is a real-time patient monitoring system placed on the wrist that integrates vital sign sensors, WiFi module, and web portal technology which allows monitoring of patients status within the hospital premises. This device also comes with a dashboard for controlling the patient's entire history while being treated in the hospital. A unique ID is assigned when the device is placed on the wrist and sends an alert message to the medical professionals if any sort of abnormalities occurs.
+                    . </p>
+                <p>
+
+                    This platform is used to collect a reliable patient data from hospitals, clinics and health extensions for statistics report for the Government, Ministry of Health, NGO's and international organizations who need the data. In the process, the platform helps improve the daily activities of the health institutes.
                 </p>
             </div>
             <div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.9s">
@@ -340,13 +342,13 @@
                 <p>Real-time patient monitoring system that integrates vital sign sensors to allow remote monitoring of patient status within the hospital premises.</p>
                 <ul class="social-icon">
                     <li>
-                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-facebook" disabled ></a>
                     </li>
                     <li>
-                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-twitter" disabled></a>
                     </li>
                     <li>
-                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-instagram" disabled></a>
                     </li>
                 </ul>
             </div>
@@ -395,22 +397,22 @@
             <div class="col-md-4 col-sm-5">
                 <ul class="social-icon">
                     <li>
-                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-facebook" disabled></a>
                     </li>
                     <li>
-                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-twitter" disabled ></a>
                     </li>
                     <li>
-                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-instagram" disabled ></a>
                     </li>
                     <li>
-                        <a href="#" class="fa fa-pinterest"></a>
+                        <a href="#" class="fa fa-pinterest" disabled></a>
                     </li>
                     <li>
-                        <a href="#" class="fa fa-google"></a>
+                        <a href="#" class="fa fa-google" disabled></a>
                     </li>
                     <li>
-                        <a href="#" class="fa fa-github"></a>
+                        <a href="#" class="fa fa-github" disabled></a>
                     </li>
                 </ul>
             </div>
